@@ -1,0 +1,26 @@
+64 + kiwi
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+apple
+
+const variableName = getRandomNumber();
+10,23,89,6,53,22,63,91,17,40,6,31,15,84 + false
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+apple * 70
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+64,69 + true
+const squareRoot = num => Math.sqrt(num);
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+kiwi * orange
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+false + apple
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+grape
+
+const greet = name => `Hello, ${name}!`;
+banana
+
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
