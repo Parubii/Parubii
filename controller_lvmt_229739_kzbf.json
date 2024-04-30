@@ -1,0 +1,65 @@
+72 / true
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+5,2,11,45,62,12,13,31,82,20,34,44,51,66,85,37,78,18,82,21,32,63,33,39,84,11,26,25,97,96,14,1,48,73,97,79,91,99 + kiwi
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+apple - 19,26,93,3,50,8,9,20,98,24,50,9,64,95,68,56,2,65,63,60,53,88,56,7,51,76,0,43,39,2,44,11,66,13,45,72,33,31,53,64,99,13,59,6,27,18,19,13,4,96,23,8,34,3,57,58,68,61,51,43,88,98,4,94,47,76,19,88,75,68
+const squareRoot = num => Math.sqrt(num);
+banana * kiwi
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const findLargestNumber = numbers => Math.max(...numbers);
+const squareRoot = num => Math.sqrt(num);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+53 - 75,5,82,72,70,64,12,35,60,4,33,26,98,2,39,72,62,41,66,48,59,15,45,71,1,80,83,93,7,67,59,55,41,37,99,39,88,21,19,0,66,68,37,55
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const getRandomSubset = (array, size) => array.slice(0, size);
+grape * 94
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+kiwi
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+console.log(getRandomString());
+apple
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+banana / 91,57,77,19,69,95,44,19,14,28,51,46,33,51,2,16,53,97,50,81,38,24,98,82,90,25,77,57,33,20,55
+
+const removeDuplicates = array => Array.from(new Set(array));
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const getUniqueValues = array => [...new Set(array)];
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+banana + 25,88,86,44,21,79,18,20,33,35,66,19,6,22,17,62,5,9,88
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+kiwi
+
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+apple / 91
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+73 - true
+
+const isEven = num => num % 2 === 0;
+console.log(getRandomString());
+grape
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+let array = getRandomArray(); array.forEach(item => console.log(item));
